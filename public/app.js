@@ -1,5 +1,5 @@
 // IP vom PC / Bridge-Server eintragen
-const pcIP = "192.168.0.100"; // <-- hier deine PC-IP eintragen
+const pcIP = "192.168.12.176"; // <-- hier deine PC-IP eintragen
 const wsPort = "8080";
 
 const ws = new WebSocket(`ws://${pcIP}:${wsPort}`);
